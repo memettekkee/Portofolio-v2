@@ -108,7 +108,7 @@ export default function Contact() {
         transition={{ duration: 0.5 }}
         style={{ marginBottom: '3.5rem' }}
       >
-        <p className="section-label">// 06. contact</p>
+        <p className="section-label">// 07. contact</p>
         <h2 className="section-heading">Get in Touch</h2>
         <div style={{ width: '48px', height: '3px', background: 'linear-gradient(to right, #3b82f6, #06b6d4)', borderRadius: '2px', marginBottom: '1rem' }} />
         <p className="section-subheading">

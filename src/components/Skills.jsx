@@ -109,7 +109,7 @@ export default function Skills() {
         transition={{ duration: 0.5 }}
         style={{ marginBottom: '3.5rem' }}
       >
-        <p className="section-label">// 03. skills</p>
+        <p className="section-label">// 04. skills</p>
         <h2 className="section-heading">Tech Stack</h2>
         <div style={{ width: '48px', height: '3px', background: 'linear-gradient(to right, #3b82f6, #06b6d4)', borderRadius: '2px', marginBottom: '0.75rem' }} />
         <p className="section-subheading">Full-stack across web, backend, cloud, and AI tooling.</p>

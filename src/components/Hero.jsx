@@ -163,23 +163,37 @@ export default function Hero() {
           >
             View My Work
           </button>
-          <button onClick={() => scrollTo('contact')} style={{
-            padding: '0.85rem 2rem',
-            background: 'transparent',
-            color: '#c4cfe8',
-            border: '1px solid rgba(255,255,255,0.18)',
-            borderRadius: '8px',
-            fontSize: '1rem',
-            fontWeight: 600,
-            cursor: 'pointer',
-            fontFamily: "'Outfit', sans-serif",
-            transition: 'border-color 0.2s, transform 0.15s, color 0.2s',
-          }}
-            onMouseEnter={(e) => { e.target.style.borderColor = '#3b82f6'; e.target.style.color = '#f0f4ff'; e.target.style.transform = 'translateY(-2px)' }}
-            onMouseLeave={(e) => { e.target.style.borderColor = 'rgba(255,255,255,0.18)'; e.target.style.color = '#c4cfe8'; e.target.style.transform = 'translateY(0)' }}
+          <a
+            href="https://drive.google.com/file/d/1kD_IrY5AV4h5RnA0_GeMQumgMBE1N7Wu/view?usp=drive_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              padding: '0.85rem 2rem',
+              background: 'transparent',
+              color: '#c4cfe8',
+              border: '1px solid rgba(255,255,255,0.18)',
+              borderRadius: '8px',
+              fontSize: '1rem',
+              fontWeight: 600,
+              fontFamily: "'Outfit', sans-serif",
+              textDecoration: 'none',
+              transition: 'border-color 0.2s, transform 0.15s, color 0.2s',
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+            }}
+            onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#3b82f6'; e.currentTarget.style.color = '#f0f4ff'; e.currentTarget.style.transform = 'translateY(-2px)' }}
+            onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.18)'; e.currentTarget.style.color = '#c4cfe8'; e.currentTarget.style.transform = 'translateY(0)' }}
           >
-            Contact Me
-          </button>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+              <polyline points="14 2 14 8 20 8" />
+              <line x1="16" y1="13" x2="8" y2="13" />
+              <line x1="16" y1="17" x2="8" y2="17" />
+              <polyline points="10 9 9 9 8 9" />
+            </svg>
+            My CV
+          </a>
         </motion.div>
       </div>
 

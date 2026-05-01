@@ -102,7 +102,7 @@ export default function Certifications() {
         transition={{ duration: 0.5 }}
         style={{ marginBottom: '3.5rem' }}
       >
-        <p className="section-label">// 05. certifications & achievements</p>
+        <p className="section-label">// 06. certifications & achievements</p>
         <h2 className="section-heading">Certs & Awards</h2>
         <div style={{ width: '48px', height: '3px', background: 'linear-gradient(to right, #3b82f6, #06b6d4)', borderRadius: '2px' }} />
       </motion.div>

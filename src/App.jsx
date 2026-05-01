@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Experience from './components/Experience'
+import Training from './components/Training'
 import Skills from './components/Skills'
 import Education from './components/Education'
 import Certifications from './components/Certifications'
@@ -22,6 +23,8 @@ function App() {
       <About />
       <Divider />
       <Experience />
+      <Divider />
+      <Training />
       <Divider />
       <Skills />
       <Divider />

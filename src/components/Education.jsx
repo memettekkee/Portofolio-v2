@@ -82,7 +82,7 @@ export default function Education() {
         transition={{ duration: 0.5 }}
         style={{ marginBottom: '3.5rem' }}
       >
-        <p className="section-label">// 04. education</p>
+        <p className="section-label">// 05. education</p>
         <h2 className="section-heading">Education & Training</h2>
         <div style={{ width: '48px', height: '3px', background: 'linear-gradient(to right, #3b82f6, #06b6d4)', borderRadius: '2px' }} />
       </motion.div>

@@ -164,7 +164,7 @@ export default function Hero() {
             View My Work
           </button>
           <a
-            href="https://drive.google.com/drive/folders/1h2AkPSzr1SXAYMztm-7ttfURuBiuA9n9"
+            href="https://drive.google.com/file/d/1BFwhXnDssfEXRz0eE6SmxuBzK8cwG6ju/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             style={{
